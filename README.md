@@ -20,7 +20,6 @@ Test Project
 - Clean Architecture
 - MVVM Architecture Pattern
 - Dependency Injection with Koin
-- Coroutines Flow
 - Room Database
 
 ## Dependencies
@@ -30,5 +29,4 @@ Test Project
 - [Lifecycle & LiveData](https://developer.android.com/jetpack/androidx/releases/lifecycle)
 - [Koin](https://github.com/InsertKoinIO/koin)
 - [Retrofit](https://square.github.io/retrofit/)
-- [Coroutines Flow](https://developer.android.com/kotlin/flow)
 - [Room](https://developer.android.com/training/data-storage/room?gclid=Cj0KCQiA0MD_BRCTARIsADXoopYlw1cozWjwyR-ucLYa-aoqYlZeJmxG34JnhByjApMNwuchOcAzcy0aAgGHEALw_wcB&gclsrc=aw.ds)
