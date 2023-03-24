@@ -1,6 +1,21 @@
 # mypokemon
 Test Project
 
+## How App Work
+- Display List Pokemons
+- View Detail a Pokemon
+- Catch Pokemon with 50% success chance
+- Display Catched Pokemon list
+- Release Pokemon with function to get random number, if the number returned by the API
+  is not a prime number, then release will fail and vice versa
+- Rename Catched Pokemon with fibonacci sequence to add number in name
+  eg : 
+  • First name assigned is “Mighty Pikachu”, first time renamed should be: “Mighty Pikachu-0”
+  • Second time renamed should be: “Mighty Pikachu-1”
+  • Third time renamed should be: “Mighty Pikachu-1”
+  • Fourth time renamed should be: “Mighty Pikachu-2”, and so on. 
+
+
 ## Tech Stack
 - Clean Architecture
 - MVVM Architecture Pattern
