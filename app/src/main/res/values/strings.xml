@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Pokemon</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_pokemon_is_empty">My Pokemon is Empty</string>
+    <string name="release_pokemon">Release Pokemon</string>
+    <string name="edit_nickname">Edit NickName</string>
+    <string name="delete">delete</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyPokemon" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pokemon_green_500</item>
+        <item name="colorPrimaryVariant">@color/pokemon_green_700</item>
+        <item name="colorOnPrimary">@color/pokemon_gray_50</item>
+        <item name="colorPrimaryDark">@color/pokemon_green_700</item>
+        <item name="colorOnSurface">@color/pokemon_black</item>
+        <item name="colorAccent">@color/pokemon_green_700</item>
+        <item name="colorSurface">@color/pokemon_gray_50</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    
+    <style name="Theme.NoActionBar" parent="Theme.MyPokemon">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/pokemon_list">
+    <fragment
+        android:id="@+id/pokemon_list"
+        android:name="com.sulistyo.mypokemon.presentation.pokemonlist.PokemonListFragment"
+        android:label="Pokedex"
+        tools:layout="@layout/fragment_pokemon_list" />
+    <fragment
+        android:id="@+id/my_pokemon"
+        android:name="com.sulistyo.mypokemon.presentation.mypokemon.MyPokemonFragment"
+        android:label="My Pokemon"
+        tools:layout="@layout/fragment_my_pokemon" />
+</navigation>
